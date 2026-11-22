@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Modern Icons from Remix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Focus (Thawanrat) | IT Student & System / IoT Developer</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <h3 class="nav__logo">Focus.dev</h3>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#connect" class="nav__link">Links</a></li>
+            <li><a href="#contact" class="nav__button">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Hi, I'm Focus.
+              <span class="hero__title-highlight"
+                >IT Student & Full-Stack / IoT Developer</span
+              >
+            </h1>
+            <p class="hero__description">
+              สวัสดีครับ ผมโฟกัส (ธวัลรัตน์ วงศ์คม) นักศึกษาสาขาเทคโนโลยีสารสนเทศ
+              มีความสนใจและประสบการณ์ในการพัฒนาเว็บแอปพลิเคชัน, ระบบ IoT & Embedded Hardware,
+              การดูแลเซิร์ฟเวอร์ Linux, Virtualization (Proxmox/Docker) รวมถึงการปรับแต่ง Game Server
+            </p>
+            <div class="hero__buttons">
+              <a href="#connect" class="button">Let's Talk</a>
+              <a href="#skills" class="button button--ghost">View Skills</a>
+            </div>
+          </div>
+
+          <div class="hero__image">
+            <!-- เปลี่ยนชื่อไฟล์รูปโปรไฟล์ของคุณตรงนี้ (เช่น รูปใส่ชุดช็อปสาขา หรือรูปโปรไฟล์) -->
+            <img src="focus-profile.webp" alt="Focus Thawanrat Developer" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills section" id="skills">
+        <div class="container">
+          <h2 class="section__title">Technical Expertise</h2>
+
+          <div class="skills__container">
+            <div class="skills__content">
+              <div class="skills__info">
+                <h3 class="skills__subtitle">IT & Development Skillset</h3>
+                <p class="skills__description">
+                  ทักษะด้านการพัฒนาซอฟต์แวร์ การเชื่อมต่อฮาร์ดแวร์ IoT
+                  และการบริหารจัดการระบบเครือข่าย/เซิร์ฟเวอร์จากโปรเจกต์จริง
+                </p>
+              </div>
+
+              <div class="skills__list">
+                <!-- Skill 1: Web & Backend -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-nodejs-line skills__icon"></i>
+                    <span class="skills__percentage-text">90%</span>
+                  </div>
+                  <h3 class="skills__card-title">Node.js & Web Dev</h3>
+                  <p class="skills__card-description">
+                    พัฒนา Web Application, REST API, HTML/CSS/JS และระบบจัดการฐานข้อมูล SQL
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skill 2: Linux & Server -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-ubuntu-fill skills__icon"></i>
+                    <span class="skills__percentage-text">92%</span>
+                  </div>
+                  <h3 class="skills__card-title">Linux & Virtualization</h3>
+                  <p class="skills__card-description">
+                    บริหารจัดการ Ubuntu/Debian Server, Proxmox VE, Docker, QEMU และ Cloudflare Tunnel
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 92%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skill 3: IoT & Embedded -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-cpu-line skills__icon"></i>
+                    <span class="skills__percentage-text">88%</span>
+                  </div>
+                  <h3 class="skills__card-title">IoT & Embedded Systems</h3>
+                  <p class="skills__card-description">
+                    เขียนโปรแกรมควบคุม ESP32, เซ็นเซอร์ (MQ-3, RTC), MQTT Broker และ Embedded Linux
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 88%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skill 4: Python & Scripting -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-code-s-slash-line skills__icon"></i>
+                    <span class="skills__percentage-text">85%</span>
+                  </div>
+                  <h3 class="skills__card-title">Python & Automation</h3>
+                  <p class="skills__card-description">
+                    เขียนสคริปต์ Python, การจัดการระบบไฟล์, Fastboot/EDL Flashing และ System Tools
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 85%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skill 5: Game Server & System Modding -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-server-line skills__icon"></i>
+                    <span class="skills__percentage-text">90%</span>
+                  </div>
+                  <h3 class="skills__card-title">Game Server Hosting</h3>
+                  <p class="skills__card-description">
+                    ติดตั้งและปรับแต่ง Private Server (rAthena), การตั้งค่า Network และการจัดการ Database
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 90%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Skill 6: System Analysis & AppSheet -->
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-flow-chart skills__icon"></i>
+                    <span class="skills__percentage-text">86%</span>
+                  </div>
+                  <h3 class="skills__card-title">System Design & No-Code</h3>
+                  <p class="skills__card-description">
+                    ออกแบบ UML Class Diagram, Flowchart (draw.io) และพัฒนาแอปพลิเคชันด้วย AppSheet
+                  </p>
+                  <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 86%">
+                      <div class="skills__percentage-glow"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section (ใช้โครงสร้าง Card เดียวกับ Skills เพื่อให้เข้ากับ CSS เดิม) -->
+      <section class="skills section" id="projects">
+        
+        <div class="container">
+          <h2 class="section__title">Featured Projects</h2>
+
+          <div class="skills__container">
+            <div class="skills__content">
+              <div class="skills__info">
+                <h3 class="skills__subtitle">Recent Works & Labs</h3>
+                <p class="skills__description">
+                  ตัวอย่างผลงานด้านการพัฒนาซอฟต์แวร์ ฮาร์ดแวร์ IoT และการวางระบบเซิร์ฟเวอร์
+                </p>
+              </div>
+
+              <div class="skills__list">
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-cloud-windy-line skills__icon"></i>
+                    <span class="skills__percentage-text">IoT / Web</span>
+                  </div>
+                  <h3 class="skills__card-title">IoT Weather Monitoring</h3>
+                  <p class="skills__card-description">
+                    เว็บแอปพลิเคชันติดตามสภาพอากาศแบบเรียลไทม์ เชื่อมต่อ ESP32 ผ่าน Mosquitto MQTT, Node.js, SQL, Docker และ Cloudflare Tunnel
+                  </p>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-hard-drive-2-line skills__icon"></i>
+                    <span class="skills__percentage-text">Infra</span>
+                  </div>
+                  <h3 class="skills__card-title">Proxmox Home Lab & Mobile VM</h3>
+                  <p class="skills__card-description">
+                    จำลองระบบ Virtualization ด้วย Proxmox VE และการรัน Ubuntu Server ผ่าน QEMU/Termux บนสมาร์ทโฟนพร้อมรีโมตผ่าน SSH
+                  </p>
+                </div>
+
+                <div class="skills__card">
+                  <div class="skills__card-header">
+                    <i class="ri-sensor-line skills__icon"></i>
+                    <span class="skills__percentage-text">Hardware</span>
+                  </div>
+                  <h3 class="skills__card-title">Handheld Breathalyzer Prototype</h3>
+                  <p class="skills__card-description">
+                    ต้นแบบเครื่องตรวจวัดแอลกอฮอล์ขนาดพกพา ใช้บอร์ด ESP32 Mini, เซ็นเซอร์ MQ-3, โมดูลเวลา DS3231 และบันทึกข้อมูลลง Micro SD
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="connect">
+      <div class="container">
+        <h2 class="footer__title">Let's Connect</h2>
+
+        <div class="footer__social">
+          <a
+            href="https://www.facebook.com/share/1FF8UnyrH9/?mibextid=wwXIfr"
+            target="_blank"
+            class="footer__link"
+          >
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/fokassz?fbclid=IwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFPcWFRRm9OS1RXTUFiU0hic3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABH5-tXgKOVe-aIPZpER0BYkeXZOB7R6gi9OHBnG5bGoQmmEStNjDPlnLzVSt8_aem_f6JO3baX0RiBMJWUCyxPPg"
+            target="_blank"
+            class="footer__link"
+          >
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a
+            href="https://github.com/fokass40"
+            target="_blank"
+            class="footer__link"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+        </div>
+
+        <p class="footer__copy">© 2026 Focus (Thawanrat Wongkhom). All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
